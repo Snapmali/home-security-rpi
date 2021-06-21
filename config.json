@@ -1,0 +1,31 @@
+{
+    "token": "",
+    "bond_user": 1,
+    "capture": {
+        "fps": 20
+    },
+    "http": {
+        "base_url": "https://api.sample.com"
+    },
+    "record": {
+        "fps": 10,
+        "saving_buf_time": 5
+    },
+    "sensor": {
+        "motion_gpio": 18,
+        "smoke_gpio": 27,
+        "buzzer_gpio": 17
+    },
+    "stream": {
+        "rtmp_url": "rtmp://rtmp.sample.com/live",
+        "ffmpeg_cmd": "",
+        "fps": 10,
+        "resolution": [
+            640,
+            480
+        ]
+    },
+    "websocket": {
+        "base_url": "wss://ws.sample.com"
+    }
+}

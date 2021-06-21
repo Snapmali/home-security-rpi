@@ -1,0 +1,6 @@
+{
+    "ssid": "WiFi SSID",
+    "akm": [4],
+    "cipher": 3,
+    "password": "wifi password"
+}
